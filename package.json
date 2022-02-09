@@ -1,0 +1,23 @@
+{
+  "name": "comingsoon",
+  "version": "1.0.0",
+  "description": "Responsive Coming Soon page with TaiwindCSS and AlpineJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "build": "postcss tailwind.css -o ./src/assets/global.css -w --verbose",
+    "start": "http-server ./src"
+  },
+  "author": "Amit Deka",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "nodemon": "^2.0.15",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.19"
+  },
+  "dependencies": {
+    "http-server": "^14.1.0"
+  }
+}
