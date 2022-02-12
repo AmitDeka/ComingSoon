@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "nodemon index.js",
-    "build": "postcss tailwind.css -o ./src/assets/global.css -w --verbose",
+    "buildWatch": "postcss tailwind.css -o ./src/assets/global.css -w --verbose",
+    "build": "postcss tailwind.css -o ./src/assets/global.css",
     "start": "http-server ./src"
   },
   "author": "Amit Deka",
